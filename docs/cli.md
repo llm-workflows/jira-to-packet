@@ -3,11 +3,11 @@
 ## Install
 
 Use a checkout of the public repository or a tarball downloaded from a
-[GitHub release](https://github.com/doruksahin/jira-to-packet/releases).
+[GitHub release](https://github.com/llm-workflows/jira-to-packet/releases).
 An initial checkout can build the same artifact without waiting for a release:
 
 ```sh
-git clone https://github.com/doruksahin/jira-to-packet.git
+git clone https://github.com/llm-workflows/jira-to-packet.git
 cd jira-to-packet
 corepack enable
 pnpm install --frozen-lockfile
@@ -55,7 +55,7 @@ Google credentials. Temporary execution files are separate from persistent stora
 ## Export and save
 
 Supply `JIRA_HOST`, `JIRA_EMAIL`, and `JIRA_API_TOKEN` through the runner's environment using the
-[exporter setup contract](https://github.com/doruksahin/jira-markdown-exporter/blob/main/docs/server-operation.md).
+[exporter setup contract](https://github.com/llm-workflows/jira-markdown-exporter/blob/main/docs/server-operation.md).
 Then run:
 
 ```sh
